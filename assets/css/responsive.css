@@ -1,0 +1,150 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .select-box select {
+        padding: 13px 10px 13px 40px;
+    }
+    .appointment-table thead tr th {
+        padding: 10px 0 10px 22px;
+    }
+    .appointment-table tbody tr td {
+        padding: 10px 12px 10px 22px;
+    }
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (max-width: 991px) {
+    .menu-btn {
+        font-size: 25px;
+        color: #000000;
+        display: block;
+        margin-right: 15px;
+    }
+    .close-sidebar {
+        position: absolute;
+        top: 41px;
+        right: 7px;
+        font-size: 17px;
+        color: #ffffff;
+        background: rgb(248, 7, 7);
+        padding: 1px 7px;
+        border-radius: 50%;
+        display: block;
+    }
+    .left-sidebar.left-sidebar-active{
+        left: 0;
+    }
+    .left-sidebar {
+        position: absolute;
+        left: -260px;
+        top: 0;
+        min-height: 100%;
+        background: #DCDFE0;
+        z-index: 11;
+        transition: all .4s ease-in-out 0s;
+        padding-bottom:30px;
+        border: none;
+        box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+    }
+    .customer-area {
+        padding: 40px 15px;
+        width: 200px;
+    }
+    .main-body {
+        padding: 30px 15px;
+        width: 100%;
+    }
+    .select-box select {
+        font-size: 15px;
+    }
+    .appointment-table thead tr th {
+        padding: 10px 0 10px 22px;
+    }
+    .appointment-table tbody tr td {
+        padding: 10px 12px 10px 22px;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .notification-item {
+        right: -75px;
+        top: 100%;
+        z-index: 1;
+        width: 250px;
+    }
+    .menu-btn {
+        top: 40px;
+        left: 20px;
+        font-size: 20px;
+    }
+    .header-title {
+        font-size: 16px;
+    }
+    .notification {
+        height: 35px;
+        width: 35px;
+    }
+    .notification img{
+        height: 20px;
+    }
+    .notification::before{
+        right: 5px;
+        height: 10px;
+        width: 10px;
+        top: 5px;
+    }
+    .profile-btn img {
+        margin-left: 13px;
+        width: 35px;
+        height: 35px;
+    }
+    .profile-btn span {
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 18px;
+    ;
+    }
+    .select-box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .select-box select{
+        width: 100%;
+    }
+    .appointment-table{
+        width: 767px;
+    }
+    .appointment-table thead tr th{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .appointment-table tbody tr td{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .appointment-table tbody tr td img{
+        height: 30px;
+        width: 30px;
+    }
+    .review-wrpe{
+        margin-bottom: 30px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}

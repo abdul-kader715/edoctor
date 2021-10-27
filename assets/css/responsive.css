@@ -112,13 +112,15 @@
     }
     .section-title h2 {
         font-size: 18px;
-    ;
     }
-    .select-box{
+    .search-items {
+        width: 100%;
+    }
+    .search-items .select-box{
         width: 100%;
         margin-bottom: 10px;
     }
-    .select-box select{
+    .search-items .select-box select{
         width: 100%;
     }
     .appointment-table{

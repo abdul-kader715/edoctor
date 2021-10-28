@@ -13,7 +13,9 @@
     .appointment-table tbody tr td {
         padding: 10px 12px 10px 22px;
     }
-
+    .secrh-title-text h3 {
+        font-size: 14px;
+    }
 
 }
 
@@ -89,6 +91,9 @@
     .header-title {
         font-size: 16px;
     }
+    .header-title.search-result{
+        font-size: 14px;
+    }
     .notification {
         height: 35px;
         width: 35px;
@@ -141,6 +146,58 @@
     .review-wrpe{
         margin-bottom: 30px;
     }
+    .search-wrep .filter {
+        display: none;
+    }
+    .search-wrep .cardiolog h3 {
+        font-size: 15px;
+    }
+    .secrh-wrap {
+        padding: 14px 15px;
+        margin-bottom: 50px;
+    }
+    .secrh-title img {
+        height: 105px;
+        width: 100px;
+        margin-top: -55px;
+        margin-right: 10px;
+    }
+    .secrh-title-text h3 {
+        font-size: 13px;
+    }
+    .secrh-wrap h4 {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .secrh-wrap .location {
+        font-size: 14px;
+    }
+    .secrh-wrap p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .pegenetion-wrep {
+        margin-top: 0;
+    }
+    .pegenetion-wrep {
+        justify-content: left;
+    }
+    .pegenetion-wrep .pegenetion-item {
+        margin: 0 5px;
+    }
+    .pegenetion-wrep .pegenetion-item li {
+        padding: 8px 10px;
+    }
+    .pegenetion-wrep .pegenetion-btn {
+        padding: 0px 2px;
+        width: 80px;
+    }
+    .pegenetion-btn.next-btn i {
+        padding-left: 10
+    px
+    ;
+    }
+
 }
 
 /* Large Mobile :480px. */

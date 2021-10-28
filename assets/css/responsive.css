@@ -147,6 +147,9 @@
         margin-bottom: 30px;
     }
     .search-wrep .filter {
+        width:50px;
+    }
+    .search-wrep .filter span{
         display: none;
     }
     .search-wrep .cardiolog h3 {
@@ -193,9 +196,7 @@
         width: 80px;
     }
     .pegenetion-btn.next-btn i {
-        padding-left: 10
-    px
-    ;
+        padding-left: 10px;
     }
 
 }

@@ -667,6 +667,10 @@ padding: 5px 22px;border-radius: 6px;
   font-weight: 500;
   color: #5C6366;
 }
+.select-area.filter-deta{
+  display: none;
+  width: 100%;
+}
 /* search-item area start css */
 .secrh-item-area{
   margin-top: 65px;
@@ -785,3 +789,107 @@ padding: 5px 22px;border-radius: 6px;
 .pegenetion-wrep .pegenetion-item li a{}
 /* search-item area end css */
 /* search page css end */
+/* doctor profile page start css */
+.header-title.doctor {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-title.doctor li{}
+.header-title.doctor li{}
+.header-title.doctor li a{
+  color: #70708C;
+}
+.header-title.doctor li a i {
+  padding: 0px 5px 1px 5px;
+  font-size: 15px;
+}
+
+/* doctor-profile area start css */
+.doctor-profile{}
+.profile-wepr{
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+}
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile .profile-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 15px 0px #33665E1A;
+}
+.profile .profile-text h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+
+}
+.profile .profile-text h4{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5C6366;
+}
+.profile .profile-text span{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+.profile .profile-text span img{
+  padding-right: 5px;
+}
+.profile .profile-text a{
+  color: #00AAFF;
+  padding-top: 5px;
+}
+.profile .profile-text a h3{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+} 
+.profile .profile-text a h3 i{
+  font-size: 14px;
+  padding-left: 10px;
+} 
+
+.profile .sergen .sergen-btn{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #24B29B;
+  padding: 12px 20px;
+  border: 1px solid#24B29B;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.profile .sergen .sergen-btn img{
+  padding-right: 5px;
+}
+ .sergen-icon {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.sergen-icon i{
+  color:#FFBF00;
+}
+.sergen-icon .icon-color i{
+ color: #B2B2B2;
+}
+.sergen-icon .icon-color {
+  margin-top: -3px;
+  color: #B2B2B2;
+ margin-right: 10px;
+}
+.profile .sergen p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6366;
+}
+
+/* doctor-profile area end css */

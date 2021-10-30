@@ -805,11 +805,14 @@ padding: 5px 22px;border-radius: 6px;
 }
 
 /* doctor-profile area start css */
-.doctor-profile{}
+.doctor-profile{
+  margin-top: 30px;
+}
 .profile-wepr{
   background: #ffffff;
   padding: 30px;
   border-radius: 20px;
+  
 }
 .profile{
   display: flex;
@@ -891,5 +894,223 @@ padding: 5px 22px;border-radius: 6px;
   font-weight: 400;
   color: #5C6366;
 }
+.about-area{
+  margin-top: 34px;
+}
+.about-area h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+}
+.about-area p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6366;
+  padding-right: 15px;
+}
+.experiene{}
+.experiene h2{
+  font-size: 18px;
+  font-weight: 600;
+  color: #293033;
+}
+.experiene span{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6366;
+  margin-top: 10px;
+}
+.experiene h3{
+  font-size: 16px;
+  font-weight: 500;
+  color: #293033;
+}
+.specialitie{}
+.specialitie h2{
+  font-size: 18px;
+  font-weight: 600;
+  color: #022741;
+  margin-bottom: 10px;
+}
+.specialitie ul{
+}
+.specialitie ul li{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6366;
+  padding-bottom: 4px;
+  position: relative;
+  padding-left: 16px;
+}
+.specialitie ul li::before{
+  position: absolute;
+  content: '';
+  top: 4px;
+  left: 0;
+  background: #24B29B;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+}
+.profile-addres{
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 30px;
+  
+}
+.profile-addres .map-location{
+
+}
+.profile-addres{}
+.addres-itam{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.addres-itam img{
+  padding-right: 15px;
+  width: 30px;
+  height: 20px;
+}
+.addres-itam .addres-itam-text{
+ width: calc(100% - 30px);
+}
+.addres-itam .addres-itam-text h3{
+  font-size: 18px;
+  font-weight: 500;
+  color: #293033;
+}
+.addres-itam .addres-itam-text span{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C6366;
+}
+.location-area{
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+.location-area h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 15px;
+}
+.location-wrep{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 11;
+  padding-bottom: 15px;
+}
+.location-wrep::before {
+  position: absolute;
+  border-left: 4px solid#1F9985;
+  height: 100%;
+  content: '';
+  top: 0;
+  left: 20px;
+  z-index: -1;
+}
+.location-wrep .sub-location i {
+  color: #FFFFFF;
+  background: #1F9985;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  padding: 15px 17px;
+  font-size: 17px;
+  margin-right: 15px;
+ 
+}
+.location-wrep .location-text{}
+.location-text h3{
+  font-size: 17px;
+  font-weight: 600;
+  color:#293033;
+  margin-bottom: 5px;
+}
+.location-text p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #5C6366;
+}
+.location-text span{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #5C6366;
+  margin-bottom: 5px;
+}
+.location-text span i{
+  padding-right: 5px;
+}
+.location-text .location-text-color{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #FF2B00;
+}
+.recent-reviews-area{
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+.recent-reviews-area h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 20px;
+}
+.recent-reviews-area p{
+    height: 72px;
+    width: 398px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C6366;
+    line-height: 25px;
+}
+.recent-reviews-wrep{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #EEEFF0;
+  padding-bottom: 12px;
+}
+.recent-reviews-wrep:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.recent-reviews-wrep img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 20px;
+
+}
+.recent-reviews-wrep .reviews-itam{}
+.recent-reviews-wrep .reviews-itam h3{
+  font-size: 17px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 8px;
+}
+.recent-reviews-wrep .reviews-itam .reviews-point{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: #1F9985;
+  width: 45px;
+  height: 23px;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
 
 /* doctor-profile area end css */

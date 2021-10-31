@@ -16,6 +16,9 @@
     .secrh-title-text h3 {
         font-size: 14px;
     }
+    .profile-wepr {
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -198,6 +201,95 @@
     .pegenetion-btn.next-btn i {
         padding-left: 10px;
     }
+    .header-title.doctor li {
+        font-size: 10px;
+    }
+    .header-title.doctor li a i {
+        font-size: 6px;
+    }
+    .profile {
+        flex-direction: column;
+    }
+    .profile-text {
+        text-align: center;
+    }
+    .about-area {
+        text-align: center;
+    }
+    .experiene {
+        text-align: left;
+    }
+    .specialitie {
+        text-align: left;
+    }
+    .profile-addres {
+        margin-top: 20px;
+    }
+    .header-title.doctor li {
+        font-size: 8px;
+    }
+    .experiene h2 {
+        font-size: 15px;
+    }
+    .specialitie h2 {
+        font-size: 15px;
+    }
+    .experiene h3 {
+        font-size: 13px;
+    }
+    .addres-itam .addres-itam-text h3 {
+        font-size: 15px;
+    }
+    .addres-itam .addres-itam-text span {
+        font-size: 15px;
+    }
+    .location-area h2 {
+        font-size: 15px;
+        margin-bottom:5px;
+    }
+    .location-wrep::before {
+        display: none;
+    }
+    .location-wrep .sub-location i {
+        display: none;
+    }
+    .location-text h3 {
+        font-size: 13px;
+    }
+    .location-text p {
+        font-size: 13px;
+    }
+    .location-text .location-text-color {
+        font-size: 11px;
+    }
+    .recent-reviews-area h2 {
+        font-size: 15px;
+    }
+    .recent-reviews-wrep .reviews-itam h3 {
+        font-size: 15px;
+    }
+    .recent-reviews-area p {
+        font-size: 12px;
+        line-height: 15px;
+        height: 40px;
+    }
+    .profile .profile-text h2 {
+        font-size: 15px;
+    }
+    .profile .profile-text a h3 {
+        font-size: 13px;
+    }
+    .profile .sergen .sergen-btn {
+        font-size: 14px;
+    }
+    .about-area h3 {
+        font-size: 16px;
+    }
+    .about-area p {
+        font-size: 13px;
+        padding-right:0;
+    }
+
 
 }
 

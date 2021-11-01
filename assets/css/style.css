@@ -1111,6 +1111,241 @@ padding: 5px 22px;border-radius: 6px;
   padding: 5px 15px;
   border-radius: 50px;
 }
-
-
 /* doctor-profile area end css */
+/* booking Doctor page css start */
+.booking-profile{
+  background: #ffffff;
+  padding: 65px 30px;
+  border-radius: 20px;
+}
+.booking-profile .profile-text{}
+.booking-profile .profile-text .profile-img{
+  border-radius: 100px;
+  margin-bottom: 28px;
+}
+.booking-profile .profile-text h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+
+}
+.booking-profile .profile-text h4{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5C6366;
+}
+.booking-profile .profile-text span{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6366;
+}
+.booking-profile .profile-text .sergen .sergen-icon p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6366;
+}
+
+/* patient info area css start */
+.patient-wrap{
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.patient-wrap h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+}
+.patient-itam {
+
+}
+.patient-data {
+    margin-bottom: 5px;
+}
+
+.patient-title{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #454A4D;
+  width: 100%;
+  padding-top: 20px;
+}
+.patient-placeholder{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8A9499;
+  padding: 15px 20px;
+  border-radius: 12px;
+  border:1px solid #8A9499;
+  width: 100%;
+  height: 55px;
+}
+.patient-textarea{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8A9499;
+  padding: 15px 10px;
+  border-radius: 12px;
+  border:1px solid #8A9499;
+  width: 100%;
+  height: 55px;
+}
+.patient-textarea:focus-visible{
+  outline: none;
+}
+.patient-placeholder:focus-visible{
+  outline: none;
+}
+/* patient info area css end  */
+/* apppointment type area start css */
+.apppointment-type-area{
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.apppointment-type-area h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 25px;
+}
+.nav-item .nav-link {
+  color: #8A9499;
+  border: 1px solid#8A9499;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin-right: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-item{
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background: #24B29B;
+}
+.apppointment-time{}
+.apppointment-time h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.apppointment-time-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.time-title{}
+.time-title h4{
+  font-size: 18px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 4px;
+}
+.time-itam {
+  display: flex;
+  flex-wrap: wrap;
+}
+.time-itam li .months{
+  width: 60px;
+  height: 60px;
+  border: 1px solid #D7DADB;
+  border-radius: 6px;
+  padding: 8px 12px;
+  transition: .4s ease-in-out;
+  margin-right: 15px;
+}
+.time-itam li .months:hover {
+  border: 1px solid #24B29B;
+}
+.time-itam li .months:hover p{
+   color: #24B29B;
+}
+.time-itam li .months:hover span{
+  color: #24B29B;
+}
+.time-title.time-title-two li .months{
+  transition:.4s ease-in-out;
+}
+.time-title.time-title-two .time-itam li .months:hover {
+  background: #24B29B;
+  color: #ffffff;
+}
+.time-title.time-title-two .time-itam li .months:hover p{
+  color: #ffffff;
+}
+.time-title.time-title-two .time-itam li .months:hover span{
+  color: #ffffff;
+}
+.time-itam li .months p{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #8A9499;
+  transition:.4s ease-in-out;
+}
+.time-itam li .months span{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #8A9499;
+  transition:.4s ease-in-out;
+}
+.choose-time{}
+.choose-time h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 25px;
+ color: #293033;
+
+}
+.choose-time-item{
+  display: flex;
+  flex-wrap: wrap;
+}
+.choose-time-item li{
+  margin-right: 18px;
+  margin-bottom: 20px;
+  
+}
+.choose-time-item li .choose-btn{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #8A9499;
+  padding: 8px 25px;
+  border: 1px solid#D7DADB;
+  border-radius: 6px;
+  background: #ffffff;
+  transition: .4s ease-in-out;
+}
+.choose-time-item li :hover.choose-btn{
+  border: 1px solid#24B29B;
+  color: #24B29B;
+}
+.pay{
+ text-align: end;
+ margin-top: 30px;
+}
+.pay a .pay-btn{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 55px;
+  background: #00AAFF;
+  border: none;
+  border-radius: 12px;
+}
+
+/* apppointment type area end css */
+/* booking Doctor page css end  */

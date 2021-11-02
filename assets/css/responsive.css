@@ -299,11 +299,13 @@
         padding: 30px 0px;
         text-align: center;
     }
-    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-        margin-bottom: 20px;
-    }
-    li.nav-item {
+  
+    .nav-item {
         padding-left: 10px;
+    }
+   
+    #pills-profile-tab {
+        margin-top: 20px;
     }
     .nav-item .nav-link {
         padding:10px;
@@ -336,7 +338,12 @@
         text-align: center;
     }
     .pay a .pay-btn {
+        font-size: 15px;
         text-align: center;
+        padding: 14px 47px;
+    }
+    .choose-time-item {
+        margin-left: 10px;
     }
 
 }

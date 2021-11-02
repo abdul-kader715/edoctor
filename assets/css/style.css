@@ -1396,8 +1396,8 @@ padding: 5px 22px;border-radius: 6px;
   text-align: right;
 }
 /* payment area start css */
-.payment-area{
-  padding: 30px;
+.payment-area {
+  padding: 21px 30px;
   background: #FFFFFF;
   border-radius: 20px;
 }
@@ -1412,6 +1412,42 @@ padding: 5px 22px;border-radius: 6px;
   font-weight: 500;
   color: #454A4D;
   margin-bottom: 8px;
+}
+.payment-area .card-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-area .card-item li {
+  border-radius: 12px;
+  border: 1px solid#D7DADB;
+  width: 118px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .4s ease-in-out;
+}
+.payment-area .card-item li:hover{
+  border: 1px solid#24B29B;
+}
+.payment-area .card-item .add-new{
+  color:#8A9499 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.payment-area .card-item .add-new i{
+  border: 1px solid#D7DADB;
+  border-radius: 6px;
+  color:#8A9499 ;
+  padding: 5px;
+}
+.payment-area .card-item .add-new span{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
 }
 /* payment area end css */
 

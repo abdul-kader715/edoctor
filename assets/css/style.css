@@ -1346,6 +1346,73 @@ padding: 5px 22px;border-radius: 6px;
   border: none;
   border-radius: 12px;
 }
-
 /* apppointment type area end css */
 /* booking Doctor page css end  */
+/* checkout page css start */
+
+.booking-profile.booking-summary {
+  padding: 25px 30px;
+}
+.booking-profile.booking-summary h3{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 30px;
+}
+.booking-profile.booking-summary .sergen-icon .icon-color {
+  margin-top: -2px;
+}
+.booking-item{}
+.booking-item .booking-item-list{
+  border-bottom: 1px solid #EEEFF0;
+  
+}
+.booking-item .booking-item-list tr th{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #454A4D;
+  padding-bottom: 10px;
+
+}
+.booking-item .booking-item-list tr td{
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C6366;
+}
+.booking-item .tolal{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #293033;
+}
+.booking-item .tolal th{
+ text-align: left;
+}
+.booking-item .tolal td{
+  text-align: right;
+}
+/* payment area start css */
+.payment-area{
+  padding: 30px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.payment-area h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 20px;
+}
+.payment-area h3{
+  font-size: 16px;
+  font-weight: 500;
+  color: #454A4D;
+  margin-bottom: 8px;
+}
+/* payment area end css */
+
+/* checkout page css end */

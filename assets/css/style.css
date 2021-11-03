@@ -1345,6 +1345,7 @@ padding: 5px 22px;border-radius: 6px;
   background: #00AAFF;
   border: none;
   border-radius: 12px;
+  cursor: pointer;
 }
 /* apppointment type area end css */
 /* booking Doctor page css end  */
@@ -1363,11 +1364,13 @@ padding: 5px 22px;border-radius: 6px;
 .booking-profile.booking-summary .sergen-icon .icon-color {
   margin-top: -2px;
 }
-.booking-item{}
-.booking-item .booking-item-list{
-  border-bottom: 1px solid #EEEFF0;
-  
+.booking-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
 .booking-item .booking-item-list tr th{
   font-family: Poppins;
   font-size: 16px;
@@ -1388,6 +1391,7 @@ padding: 5px 22px;border-radius: 6px;
   font-size: 18px;
   font-weight: 600;
   color: #293033;
+  border-top: 1px solid #EEEFF0;
 }
 .booking-item .tolal th{
  text-align: left;
@@ -1428,6 +1432,7 @@ padding: 5px 22px;border-radius: 6px;
   align-items: center;
   justify-content: center;
   transition: .4s ease-in-out;
+  cursor: pointer;
 }
 .payment-area .card-item li:hover{
   border: 1px solid#24B29B;
@@ -1450,5 +1455,117 @@ padding: 5px 22px;border-radius: 6px;
   font-weight: 500;
 }
 /* payment area end css */
-
 /* checkout page css end */
+ /* appointment-area page start css */
+.appointment-area{
+  padding: 40px 0;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.appointment-wrep{
+}
+.appointment-wrep .profile-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 15px 0px #33665E1A;
+  margin-bottom: 30px;
+}
+.appointment-wrep h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+}
+.appointment-wrep h4{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5C6366;
+
+}
+.appointment-wrep p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5C6366;
+  position: relative;
+  display: inline;
+  z-index: 1;
+  
+}
+.appointment-wrep p::before {
+  height: 14px;
+  width: 14px;
+  border-radius: 55px;
+  top: 4px;
+  right: 110px;
+  position: absolute;
+  content: '';
+}
+.appointment-wrep p.online::before{
+  background: #00B200;
+}
+.appointment-wrep p.offline::before{
+  background: rgb(255, 8, 8);
+}
+.appointment-date {
+  width: 380px;
+  padding-top: 25px;
+  border-top: 1px solid#EEEFF0;
+}
+.appointment-date li {
+  display: flex;
+}
+.appointment-date li span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #454A4D;
+  margin-left: 45px;
+}
+.appointment-date li span{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #454A4D;
+}
+.appointment-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-item .voice-btn{
+  border: none;
+  width: 160px;
+  height: 60px;
+  background: #24B29B;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.appointment-item .video-btn{
+  border: none;
+  width: 160px;
+  height: 60px;
+  background: #00AAFF;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.appointment-item .message-btn{
+  border: none;
+  width: 160px;
+  height: 60px;
+  background: #4E6BFF;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.appointment-item a{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #FFFFFF;
+}
+ /* appointment-area page end css */
+ /* voice page start css */
+
+ /* voice page end css */

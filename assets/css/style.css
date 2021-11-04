@@ -1567,5 +1567,77 @@ padding: 5px 22px;border-radius: 6px;
 }
  /* appointment-area page end css */
  /* voice page start css */
+.voice-area{
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.voice-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEEFF0;
+  padding: 20px;
+}
+.voice-left-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.voice-left-side img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.voice-left-side h5{
+  font-size: 16px;
+  font-weight: 600;
+  color: #5C6366;
+  margin-left: 15px;
+}
+.voice-right-side{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.voice-right-side a {
+  margin-left: 25px;
+}
+.voice-right-side a i {
+  color: #5C6366;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #8A9499;
+  border-radius: 50px;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.voice-werp{
+  padding: 125px 0;
+  text-align: center;
+}
+.voice-werp img{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  box-shadow: 0px 8px 15px 0px #33665E1A;
+}
+.voice-werp h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-top: 25px;
+}
+.voice-werp span{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8A9499;
 
+}
  /* voice page end css */

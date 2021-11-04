@@ -1638,6 +1638,86 @@ padding: 5px 22px;border-radius: 6px;
   font-size: 16px;
   font-weight: 500;
   color: #8A9499;
-
 }
+.voice-item {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.voice-item li{
+  margin: 0 20px;
+}
+
+.voice-item li .voice-btn {
+  border: 1px solid#00AAFF;
+  border-radius: 100px;
+  width: 55px;
+  height: 55px;
+  background: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #00AAFF;
+  font-size: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position:relative;
+}
+
+.voice-item li .voice-btn.voice-btn-stop{
+  border-color:#8A9499 ;
+  color: #8A9499;
+}
+.voice-btn.voice-btn-stop:before {
+  color: #8A9499;
+  position: absolute;
+  content: '/';
+  font-size: 30px;
+  top: 3px;
+  left: 21px;
+  transform: translateX(-50%);
+  transform: rotate(-51deg);
+}
+.voice-item li span{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8A9499;
+}
+.end-call{
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 45px;
+}
+.end-call span {
+  display: flex;
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background: #F22A18;
+  position: relative;
+  cursor: pointer;
+}
+.end-call span::before {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35px;
+  left: 35px;
+  content: url(../images/icons/end-call.svg);
+}
+.end-call p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #8A9499;
+  margin: 0;
+}
+
+
+
+
+
+
  /* voice page end css */

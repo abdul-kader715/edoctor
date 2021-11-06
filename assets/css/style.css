@@ -1532,7 +1532,7 @@ padding: 5px 22px;border-radius: 6px;
   justify-content: center;
   align-items: center;
 }
-.appointment-item .voice-btn{
+.appointment-item li .voice-btn button{
   border: none;
   width: 160px;
   height: 60px;
@@ -1540,8 +1540,14 @@ padding: 5px 22px;border-radius: 6px;
   cursor: pointer;
   border-radius: 12px;
   margin-right: 20px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 }
-.appointment-item .video-btn{
+
+ .appointment-item li .video-btn button{
   border: none;
   width: 160px;
   height: 60px;
@@ -1549,22 +1555,27 @@ padding: 5px 22px;border-radius: 6px;
   cursor: pointer;
   border-radius: 12px;
   margin-right: 20px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 }
-.appointment-item .message-btn{
+.appointment-item li .message-btn button{
   border: none;
   width: 160px;
   height: 60px;
   background: #4E6BFF;
   cursor: pointer;
   border-radius: 12px;
-}
-.appointment-item a{
+  color: #ffffff;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: #FFFFFF;
 }
+
+
  /* appointment-area page end css */
  /* voice page start css */
 .voice-area{
@@ -1714,10 +1725,122 @@ padding: 5px 22px;border-radius: 6px;
   color: #8A9499;
   margin: 0;
 }
-
-
-
-
-
-
  /* voice page end css */
+ /* video page start css */
+ .video-area{
+  border-radius: 20px;
+  margin-top: 30px;
+
+ }
+ .video-caller-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #24B29B;
+  color: #ffffff;
+  padding: 20px 30px;
+  border-bottom: 1px solid#1F9985;
+  border-top-left-radius:20px ;
+  border-top-right-radius:20px ;
+}
+.video-time{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-time i{
+  width: 50px;
+  height: 50px;
+  border: 1px solid#ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 100px;
+}
+.caller-id{
+  margin-left: 10px;
+}
+.caller-id h3{
+  font-size: 16px;
+  font-weight: 600;
+}
+.caller-id span{
+  font-size: 16px;
+  font-weight: 500;
+}
+.video-text-icon{
+
+}
+.video-text-icon i{
+  width: 50px;
+  height: 50px;
+  border: 1px solid#ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 100px;
+  color: #ffffff;
+}
+.video-wrap{
+  background: url(../images/home/profile-img-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+  width: 100%;
+  position: relative;
+}
+.video-wrap h3{
+  font-size: 25px;
+  font-weight: 600;
+  color: #293033;
+}
+.out-video{
+    width: 173px;
+    height: 115px;
+    border: 2px solid #ffffff;
+    border-radius:12px ;
+    position: absolute;
+    top: 53px;
+    right: 140px;
+}
+.video-btn-item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 15px 0;
+ margin-top: 590px;
+
+}
+.video-btn-item li button {
+  width: 60px;
+  height: 60px;
+  background: #00AAFF;
+  margin: 0 12px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+
+}
+.video-btn-item li button {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+ /* video page end css */

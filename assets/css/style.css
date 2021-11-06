@@ -1830,17 +1830,77 @@ padding: 5px 22px;border-radius: 6px;
   border: none;
   border-radius: 100px;
   cursor: pointer;
-
 }
 .video-btn-item li button {
   color: #FFFFFF;
   font-size: 25px;
 }
 
-
-
-
-
-
-
  /* video page end css */
+ /* review area start css */
+.review-area{
+  background: #ffffff;
+  padding: 105px 0;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.appointment-wrep h3{
+  font-size: 18px;
+  font-weight: 500;
+  color: #293033;
+  margin-top: 50px;
+}
+.appointment-wrep .secrh-title-text{
+  margin-top: 12px;
+}
+.appointment-wrep .secrh-title-text span i{
+  font-size: 35px;
+  padding: 0 10px;
+}
+.review-comment{
+  margin-top: 55px;
+}
+.review-comment #review-text {
+  width: 100%;
+  height: 140px;
+  padding: 15px 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #D7DADB;
+  border-radius: 12px;
+}
+.review-comment #review-text:focus-visible {
+  outline: none;
+}
+.review-comment .review-btn-cancel{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #00AAFF;
+  width: 160px;
+  height:55px;
+  border-radius: 12px;
+  border: none;
+  background: #E9F1F5;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-top: 55px;
+}
+.review-comment .review-btn-send{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  width: 160px;
+  height:55px;
+  border-radius: 12px;
+  border: none;
+  background: #00AAFF;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-top: 55px;
+}
+ /* review area end css */

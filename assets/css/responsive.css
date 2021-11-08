@@ -28,6 +28,10 @@
     .payment-area h2 {
         font-size: 15px;
     }
+    .out-video {
+        top: 53px;
+        right: 20px;
+    }
 
 }
 
@@ -89,7 +93,10 @@
     .booking-profile.booking-summary {
         margin-bottom: 50px;
     }
-
+    .out-video {
+        top: 53px;
+        right: 0;
+    }
 
 
 }
@@ -375,8 +382,140 @@
     .patient-placeholder {
         font-size: 15px;
     }
-    
-
+    .appointment-date {
+        width: 100%;
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+    .appointment-date li span {
+        margin-left: 0px;
+        font-size: 15px;
+        padding-top: 2px;
+    }
+    .appointment-item {
+        display: grid;
+    }
+    .appointment-item li{
+        margin-bottom: 10px;
+    }
+    .appointment-item li .voice-btn button {
+        font-size: 15px;
+    }
+    .appointment-item li .video-btn button {
+        font-size: 15px;
+    }
+    .appointment-item li .message-btn button {
+        font-size: 15px;
+    }
+    .appointment-wrep h2 {
+        font-size: 16px;
+    }
+    .voice-head {
+        padding: 12px;
+    }
+    .voice-left-side h5 {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    .voice-right-side a {
+        margin-left: 20px;
+    }
+    .voice-right-side a i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .voice-werp {
+        padding: 10px 0;
+    }
+    .voice-werp img {
+        height: 100px;
+        width: 100px;
+    }
+    .voice-werp h3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .voice-werp span {
+        font-size: 13px;
+    }
+    .voice-item {
+        margin-top: 10px;
+    }
+    .voice-item li {
+        margin: 0 5px;
+    }
+    .voice-item li .voice-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .voice-btn.voice-btn-stop:before {
+        font-size: 20px;
+        top: 4px;
+        left: 14px;
+    }
+    .end-call {
+        margin-top: 5px;
+    }
+    .end-call span {
+        width: 50px;
+        height: 50px;
+    }
+    .end-call span::before {
+        top: 28px;
+        left: 25px;
+    }
+    .video-caller-name {
+        padding: 5px 5px;
+    }
+    .video-time i {
+        display: none;
+    }
+    .caller-id h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .video-text-icon i {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .video-wrap h3 {
+        font-size: 15px;
+    }
+    .video-wrap {
+        padding:0;
+    }
+    .video-btn-item {
+        margin-top: 150px;
+    }
+    .out-video {
+        width: 100px;
+        height: 66px;
+        top: 0;
+        right:0;
+    }
+    .video-btn-item li button {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+    .video-btn-item li button {
+        font-size: 15px;
+    }
+    .video-btn-item {
+        padding: 10px 0;
+    }
+    .end-call span {
+        width: 45px;
+        height: 45px;
+    }
+    .end-call span::before {
+        top: 25px;
+        left: 22px;
+    }
 
 }
 

@@ -97,7 +97,9 @@
         top: 53px;
         right: 0;
     }
-
+    .message-item .nav-item {
+        margin-right: 40px;
+    }
 
 }
 
@@ -516,6 +518,50 @@
         top: 25px;
         left: 22px;
     }
+    .message-item .nav-item {
+        margin-right: 0;
+    }
+    .chat-profile img {
+        display: none;
+    }
+    .chat-profile .chat-profile-name {
+        margin-left: 0;
+    }
+    .chat-profile .chat-profile-name h2 {
+        font-size: 15px;
+    }
+    .chat-content {
+        padding: 10px;
+    }
+    .chat-profile {
+        width: 125px;
+    }
+    .chat-header-icon a {
+        width: 30px;
+        height: 30px;
+    }
+    .chat-header-icon a i {
+        font-size: 16px;
+    }
+    .chat-profile-box img {
+        margin-right: 0; 
+    }
+    .media-body .chating {
+         margin-right:0;
+    }
+    .media.text-right .media-body .chating {
+        margin-left: 0;
+    }
+    .media.text-right .chat-profile-box img {
+        margin-left: 0;
+    }
+    .chat-textarea {
+        font-size: 15px;
+    }
+    .chat-textarea {
+        padding: 10px 120px 10px 10px;
+    }
+
 
 }
 

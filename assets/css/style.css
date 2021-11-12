@@ -1134,8 +1134,8 @@ padding: 5px 22px;border-radius: 6px;
   font-weight: 400;
   color: #5C6366;
 }
-.booking-profile .profile-text span{
-  font-size: 14px;
+.booking-profile .profile-text .icon-color {
+  font-size: 16px;
   font-weight: 400;
   color: #5C6366;
 }
@@ -2138,3 +2138,246 @@ padding: 5px 22px;border-radius: 6px;
   color: #ffffff;
 }
  /* message pege end css */
+ /* profile pege  start css */
+.present-wrep{
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+}
+.present-wrep .present-wrep{
+  position: relative;
+}
+.present-title{
+  text-align: center;
+}
+.present-title img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  
+}
+.present-title h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: #293033;
+}
+.present-title span{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C6366;
+}
+.present-wrep .edit-page {
+  height: 50px;
+  width: 110px;
+  border-radius: 12px;
+  background: #00AAFF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  top: 45px;
+  right: 50px;
+}
+.introduction-title h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+}
+.introduction-title p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5C6366;
+  line-height: 25px;
+}
+.present-data{
+  margin-top: 25px;
+}
+.present-data h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  margin-bottom: 7px;
+}
+.present-membership{}
+.present-membership li{
+  display: flex;
+  flex-wrap: wrap;
+}
+.present-membership li p{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #5C6366;
+  width: 180px;
+  margin: 0;
+}
+.present-membership li span{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #5C6366;
+  width: 180px;
+}
+.appointment-tabel.profile-payment .appointment-title{
+  padding: 0;
+}
+.appointment-tabel.profile-payment .appointment-table thead tr th{
+  padding-left: 0;
+}
+.appointment-tabel.profile-payment .appointment-table tbody tr td {
+  padding-left: 0;
+}
+.appointment-tabel.profile-payment .appointment-table tbody tr td h3{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #293033;
+}
+.compl-btn.compl-payment {
+  color: #1F991F;
+  background: #D7FCD7;
+}
+.appointment-tabel.profile-payment .appointment-table tbody tr td i{
+  margin-left: 15px;
+  color: #5C6266;
+}
+
+.compl-btn.view-payment{
+  background: #00AAFF;
+  color: #F3F3F3;
+  cursor: pointer;
+}
+.view-payment-item {
+  position: absolute;
+  bottom: -84px;
+  right: 78px;
+  background: #FFFFFF;
+  width: 185px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 30px rgba(0, 68, 102, 0.1);
+  padding: 10px 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s ease-in-out;
+}
+.view-payment-item.view-payment-active{
+  opacity: 1;
+  visibility: visible;
+}
+.view-payment-item li{
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin: 6px 0;
+  color: #5C6366;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+}
+.view-payment-item li:hover{
+  background: #F2F6F7;
+}
+.view-payment-item li i{
+  margin-right: 10px;
+}
+.doctor-weper{}
+.mydoctor-title{
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.mydoctor-title{
+  text-align: center;
+}
+.mydoctor-title h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  text-align: left;
+}
+.booking-profile.mydoctor{
+    background:none;
+    padding:0;
+    border-radius:0;
+    text-align: left;
+}
+.booking-profile.mydoctor .profile-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.booking-profile.mydoctor .profile-text .profile-img{
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+.booking-profile.mydoctor .profile-text .mydoctor-text{
+  width: calc(100% - 100px);
+  padding-left: 20px;
+}
+.mydoctor-title .mydoctor-btn button{
+  margin-top: 25px;
+  border: none;
+  background: #00AAFF;  
+  border-radius: 12px;
+  padding: 14px 30px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+}
+.mycomplain{
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin-top: 30px;
+  text-align: center;
+}
+.mycomplain h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #293033;
+  text-align: left;
+}
+.mycomplain h3{
+  font-size: 18px;
+  font-weight: 500;
+  color: #293033;
+  text-align: left;
+}
+.mycomplain p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #5C6366;
+  text-align: left;
+}
+.mycomplain p span{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+}
+.mycomplain .complain-btn{
+  margin-top: 25px;
+  border: none;
+  background: #00AAFF;  
+  border-radius: 12px;
+  width: 290px;
+  padding: 14px 30px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+ /* profile pege  end css */

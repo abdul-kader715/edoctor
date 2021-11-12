@@ -9,7 +9,9 @@ $(document).ready(function () {
     $(".filter").click(function(){
         $(".select-area").slideToggle("slow");
       });
-
+      $(".compl-btn.view-payment").click(function(){
+        $(".view-payment-item").toggleClass("view-payment-active");
+    });
 
     /* Card Number Spacing */
 

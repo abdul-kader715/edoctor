@@ -8,22 +8,19 @@ $(document).ready(function () {
     });
     $(".filter").click(function(){
         $(".select-area").slideToggle("slow");
-      });
-      $(".compl-btn.view-payment").click(function(){
-        $(".view-payment-item").toggleClass("view-payment-active");
     });
 
     /* Card Number Spacing */
 
-    $('#card-number').on('keypress change blur', function () {
+    $('#card-number,.personal-text').on('keypress change blur', function () {
         $(this).val(function (index, value) {
         return value.replace(/[^a-z0-9]+/gi, '').replace(/(.{4})/g, '$1 ');
         });
     });
     
-    $('#card-number').on('copy cut paste', function () {
+    $('#card-number,.personal-text').on('copy cut paste', function () {
         setTimeout(function () {
-        $('#card-number').trigger("change");
+        $('#card-number,.personal-text').trigger("change");
         });
     });
     
@@ -37,5 +34,5 @@ $(document).ready(function () {
             $(this).val(newInput);
         }
     });
-
+  
 });

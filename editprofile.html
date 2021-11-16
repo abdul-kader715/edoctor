@@ -160,7 +160,7 @@
                         </div>
                         <div class="personal-wrap">
                             <label class="personal-title">Phone No</label>
-                            <input class="personal-text" type="number" placeholder="+321 5236 562 3256" required maxlength="19">
+                            <input class="personal-text" type="text" placeholder="+321 5236 562 3256" required maxlength="19">
                         </div>
                         <div class="personal-wrap">
                             <label class="personal-title">Address</label>
@@ -197,17 +197,20 @@
                     <div class="create-pass">
                         <h2>Change Password</h2>
                         <div class="personal-item">
-                            <div class="personal-wrap">
+                            <div class="personal-wrap show-hide">
                                 <label class="personal-title">Old Password</label>
-                                <input class="personal-text" type="password" placeholder="john" required>
+                                <input class="personal-text password" type="password"  required value="000000las">
+                                <i class="fa fa-eye checkbox-icon" aria-hidden="true"></i>
                             </div>
-                            <div class="personal-wrap">
+                            <div class="personal-wrap show-hide">
                                 <label class="personal-title">New Password</label>
-                                <input class="personal-text" type="password" placeholder="john" required>
+                                <input class="personal-text password" type="password"  required value="000000h">
+                                <i class="fa fa-eye checkbox-icon" aria-hidden="true"></i>
                             </div>
-                            <div class="personal-wrap">
+                            <div class="personal-wrap show-hide">
                                 <label class="personal-title">Confirm New Password</label>
-                                <input class="personal-text" type="password" placeholder="john" required>
+                                <input class="personal-text password" type="password"  required value="000000h">
+                                <i class="fa fa-eye checkbox-icon" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
@@ -251,14 +254,7 @@
                     </div>
                 </form>
             </div>
-
-
-
          </div>
-
-
-
-
         <!-- content area end -->
         </div>
     </div>
@@ -270,5 +266,17 @@
      <script src="assets/js/bootstrap.min.js"></script>
      <!-- custom core JS file -->
      <script src="assets/js/custom.js"></script>
+     <script>
+        $('.checkbox-icon').on('click', function(){
+           let type = $(this).parents('.personal-wrap').find('.password')
+            if (type.attr('type') === "password") {
+                type.attr('type','text')
+                $(this).addClass('fa-eye-slash').removeClass('fa-eye')
+            } else {
+                type.attr('type','password')
+                $(this).addClass('fa-eye').removeClass('fa-eye-slash')
+            }
+        })
+    </script>
  </body>
  </html>

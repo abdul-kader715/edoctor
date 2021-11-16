@@ -32,6 +32,9 @@
         top: 53px;
         right: 20px;
     }
+    .doctor-weper {
+        margin-top: 30px;
+    }
 
 }
 
@@ -99,6 +102,9 @@
     }
     .message-item .nav-item {
         margin-right: 40px;
+    }
+    .doctor-weper {
+        margin-top: 30px;
     }
 
 }
@@ -561,6 +567,73 @@
     .chat-textarea {
         padding: 10px 120px 10px 10px;
     }
+    .doctor-weper {
+        margin-top: 30px;
+    }
+    .appointment-tabel.profile-payment .table-responsive {
+        overflow: auto;
+    }
+    .present-title img {
+        width: 100px;
+        height: 100px;
+    }
+    .present-wrep .edit-page {
+        height: 31px;
+        width: 66px;
+        padding: 5px 9px;
+        font-size: 15px;
+        right: 30px;
+    }
+    .present-title h3 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .introduction-title h4 {
+        font-size: 15px;
+    }
+    .introduction-title p {
+        font-size: 14px;;
+        line-height: 20px;
+    }
+    .present-data h3 {
+        font-size: 15px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .present-membership {
+        text-align: center;
+    }
+    .mydoctor-title .mydoctor-btn button {
+        margin-top: 6px;
+        padding: 9px 11px;
+        font-size: 15px;
+    }
+    .mycomplain h2 {
+        font-size: 15px;
+    }
+    .mycomplain h3 {
+        font-size: 15px;
+    }
+    .mycomplain .complain-btn {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .photo-up img {
+        width: 100px;
+        height: 100px;
+        margin-right:0;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

@@ -623,19 +623,68 @@
         height: 100px;
         margin-right:0;
     }
+    .present-membership {
+        text-align: left;
+    }
+    .present-data h3 {
+        text-align: left; 
+    }
+    .present-membership li p {
+        font-size: 15px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .present-membership li span {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .photo-up {
+        display: block;
+        text-align: center;
+    }
+    .up-btn {
+        padding: 8px 10px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .upload-btn-wrapper {
+        margin-right:0; 
+    }
+    .personal-wrap {
+        display: contents;
+    }
+    .personal-wrap .personal-text {
+        width: 100%;
+    }
+    .introduc-area p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .create-pass h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .introduc-area h4 {
+        margin-top: 10px;
+    }
+    .personal-wrap .personal-text {
+        font-size: 15px;
+    }
+    .save-btn {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .save-btn .save-chang {
+        font-size: 16px;
+        width: 100%;
+    }
+    .editprofile-area h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .checkbox-icon {
+      display: none;
+    }
+   
 }
 
 /* Large Mobile :480px. */

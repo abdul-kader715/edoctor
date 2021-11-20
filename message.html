@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>message</title>
-     <!-- bootstrap CSS file -->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-     <!-- font-awesome CSS file -->
-     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-     <!-- default CSS file -->
-     <link rel="stylesheet" href="assets/css/default.css" />
-     <!-- style CSS file -->
-     <link rel="stylesheet" href="assets/css/style.css" />
-     <!-- responsive CSS file -->
-     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- bootstrap CSS file -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font-awesome CSS file -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <!-- default CSS file -->
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <!-- style CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- responsive CSS file -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
+
 <body>
-<!-- main-container area start -->
+    <!-- main-container area start -->
     <div class="main-container">
         <!-- left-sidebar start -->
         <div class="left-sidebar">
@@ -33,7 +35,7 @@
                     <li>
                         <a href="index.html">
                             <i class="fa fa-home" aria-hidden="true"></i>
-                                Home
+                            Home
                         </a>
                     </li>
                     <li>
@@ -75,1176 +77,1231 @@
         </div>
         <!-- left-sidebar end -->
         <!-- content area stert -->
-        <div class="main-body">   
-                    <header class="header-area">
-                        <div class="d-flex align-items-center">
-                            <div class="menu-btn">
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                            </div>
-                            <ul class="header-title doctor booking-doctor">
-                                <li>
-                                    <a href="appointment.html">Appointment<i class="fa fa-chevron-right" aria-hidden="true"></i>
+        <div class="main-body">
+            <header class="header-area">
+                <div class="d-flex align-items-center">
+                    <div class="menu-btn">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <ul class="header-title doctor booking-doctor">
+                        <li>
+                            <a href="appointment.html">Appointment<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>Message</li>
+                    </ul>
+                </div>
+                <div class="right-side">
+                    <div class="notification-wrap">
+                        <span class="notification">
+                            <img class="notific-btn" src="assets/images/icons/notification.svg" alt="notifaction">
+                        </span>
+                        <div class="notification-item">
+                            <ul>
+                                <li class="notific-list">
+                                    <a href="index.html">
+                                        <img class="message-img" src="assets/images/home/message-02.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Dr. David</h3>
+                                            <p>Let me see your last month...</p>
+                                            <span>3.30pm</span>
+                                        </div>
                                     </a>
                                 </li>
-                                <li>Message</li>
+                                <li class="notific-list">
+                                    <a href="index.html">
+                                        <img class="message-img" src="assets/images/home/message-02.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Dr. David</h3>
+                                            <p>Let me see your last month...</p>
+                                            <span>3.30pm</span>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="right-side">
-                            <div class="notification-wrap">
-                                <span class="notification">
-                                    <img class="notific-btn" src="assets/images/icons/notification.svg" alt="notifaction">
-                                </span>
-                                <div class="notification-item">
-                                    <ul>
-                                        <li class="notific-list">
-                                            <a href="index.html">
-                                                <img class="message-img" src="assets/images/home/message-02.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Dr. David</h3>
-                                                <p>Let me see your last month...</p>
-                                                <span>3.30pm</span>
-                                            </div> 
-                                            </a>
-                                        </li>
-                                        <li class="notific-list">
-                                            <a href="index.html">
-                                                <img class="message-img" src="assets/images/home/message-02.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Dr. David</h3>
-                                                <p>Let me see your last month...</p>
-                                                <span>3.30pm</span>
-                                            </div> 
-                                            </a>
-                                        </li>
-                                    </ul>   
-                                </div>
-                            </div>
-                            <div class="profile-btn">
-                                <img src="assets/images/home/profile-img.png" alt="profile-img">
-                                <span>John Doe</span>
-                                <ul class="profile-wrep">
-                                    <li><a href="index.html">My Profile</a></li>
-                                    <li><a href="index.html">Settings</a></li>
-                                    <li><a href="index.html">Sign out</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </header> 
-                <!-- message area start -->
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 ">
-                        <section class="message-area">
-                               <form class="search-bar">
-                                   <input type="search"  id="search-here" placeholder="Search here">
-                                   <label class="search-icon">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                   </label>
-                               </form>
-                            <div class="message-item">
-                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                                            <img class="message-img" src="assets/images/home/message-02.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Dr. David</h3>
-                                                <p>Let me see your last month...</p>
-                                                <span>3.30pm</span>
-                                            </div>  
+                    </div>
+                    <div class="profile-btn">
+                        <img src="assets/images/home/profile-img.png" alt="profile-img">
+                        <span>John Doe</span>
+                        <ul class="profile-wrep">
+                            <li><a href="index.html">My Profile</a></li>
+                            <li><a href="index.html">Settings</a></li>
+                            <li><a href="index.html">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- message area start -->
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 ">
+                    <section class="message-area">
+                        <form class="search-bar">
+                            <input type="search" id="search-here" placeholder="Search here">
+                            <label class="search-icon">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </label>
+                        </form>
+                        <div class="message-item">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link active" id="home-tab" data-toggle="tab"
+                                        href="#home" role="tab" aria-controls="home" aria-selected="true">
+                                        <img class="message-img" src="assets/images/home/message-02.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Dr. David</h3>
+                                            <p>Let me see your last month...</p>
+                                            <span>3.30pm</span>
                                         </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Alexander</h3>
-                                                <p>are you going to a business ..</p>
-                                                 <span>3.30pm</span>
-                                            </div> 
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="jonathan-tab" data-toggle="tab" href="#jonathan" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-04.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Jonathan</h3>
-                                                <p>We need to start a new rese...</p>
-                                                <span>3.30pm</span>
-                                                <span class="message-nub">2</span>
-                                            </div> 
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="nicholas-tab" data-toggle="tab" href="#nicholas" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-05.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Nicholas</h3>
-                                                <p>I like to introduce you my na...</p>
-                                                <span>3.30pm</span>
-                                                <span class="message-nub">1</span>
-                                            </div> 
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="exander-tab" data-toggle="tab" href="#exander" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-06.png" alt="message">
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="profile-tab" data-toggle="tab"
+                                        href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Alexander</h3>
+                                            <p>are you going to a business ..</p>
+                                            <span>3.30pm</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="jonathan-tab" data-toggle="tab"
+                                        href="#jonathan" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-04.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Jonathan</h3>
+                                            <p>We need to start a new rese...</p>
+                                            <span>3.30pm</span>
+                                            <span class="message-nub">2</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="nicholas-tab" data-toggle="tab"
+                                        href="#nicholas" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-05.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Nicholas</h3>
+                                            <p>I like to introduce you my na...</p>
+                                            <span>3.30pm</span>
+                                            <span class="message-nub">1</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="exander-tab" data-toggle="tab"
+                                        href="#exander" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-06.png" alt="message">
                                         <div class="message-content">
                                             <h3>Alexander</h3>
                                             <p>I suggest to start a new busi...</p>
                                             <span>3.30pm</span>
-                                        </div> 
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="than-tab" data-toggle="tab" href="#than" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-07.png" alt="message">
-                                            <div class="message-content">
-                                                <h3>Jonathan</h3>
-                                                <p>are you going to a business ..</p>
-                                                <span>3.30pm</span>
-                                            </div>  
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="las-tab" data-toggle="tab" href="#las" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-08.png" alt="message">
-                                            <div class="message-content">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="than-tab" data-toggle="tab" href="#than"
+                                        role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-07.png" alt="message">
+                                        <div class="message-content">
+                                            <h3>Jonathan</h3>
+                                            <p>are you going to a business ..</p>
+                                            <span>3.30pm</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="las-tab" data-toggle="tab" href="#las"
+                                        role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-08.png" alt="message">
+                                        <div class="message-content">
                                             <h3>Nicholas</h3>
                                             <p>I suggest to start a new busi...</p>
                                             <span>3.30pm</span>
                                             <span class="message-nub">4</span>
-                                        </div>  
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="Nicho-tab" data-toggle="tab" href="#Nicho" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-08.png" alt="message">
-                                            <div class="message-content">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="Nicho-tab" data-toggle="tab"
+                                        href="#Nicho" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-08.png" alt="message">
+                                        <div class="message-content">
                                             <h3>Nicholas</h3>
                                             <p>I suggest to start a new busi...</p>
                                             <span>3.30pm</span>
                                             <span class="message-nub">4</span>
-                                        </div>  
-                                        </div>   
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="message-item-list nav-link" id="charlotte-tab" data-toggle="tab" href="#charlotte" role="tab" aria-controls="profile" aria-selected="false">
-                                            <img class="message-img" src="assets/images/home/message-09.png" alt="message">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="message-item-list nav-link" id="charlotte-tab" data-toggle="tab"
+                                        href="#charlotte" role="tab" aria-controls="profile" aria-selected="false">
+                                        <img class="message-img" src="assets/images/home/message-09.png" alt="message">
                                         <div class="message-content">
                                             <h3>Charlotte</h3>
                                             <p>We need to start a new rese...</p>
                                             <span>3.30pm</span>
-                                        </div>  
-                                        </div>   
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="col-xl-8 col-lg-6 ">
-                          <div class="tab-content" id="myTabContent">
-                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="chat-content">
-                                   <div class="chat-header">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-xl-8 col-lg-6 ">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
                                     <div class="chat-profile">
                                         <img class="message-img" src="assets/images/home/message-03.png" alt="message">
                                         <div class="chat-profile-name">
                                             <h2>Alexander</h2>
                                             <span>Online</span>
                                         </div>
-                                   </div>
-                                   <div class="chat-header-icon">
-                                       <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                       <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                   </div>
-                                   </div>
-                                   <div class="chat-tab-box">
-                                        <div class="media">
-                                            <div>
-                                                 <div class="chat-profile-box">
-                                                     <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                 </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <span>Alexander, 11:25 AM</span>
-                                                <div class="chating">
-                                                     <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media text-right">
-                                            <div class="media-body">
-                                                <span>11:27 AM</span>
-                                                <div class="chating">
-                                                     <p class="mb-0">Oo, why don’t you say something more</p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="chat-profile-box">
-                                                    <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                </div>
-                                           </div>
-                                        </div>
-                                        <div class="media">
-                                            <div>
-                                                 <div class="chat-profile-box">
-                                                     <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                 </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <span>Alexander, 11:3 AM</span>
-                                                <div class="chating">
-                                                     <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media">
-                                            <div>
-                                                 <div class="chat-profile-box">
-                                                     <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                 </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <span>Alexander, 11:3 AM</span>
-                                                <div class="chating">
-                                                     <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media text-right">
-                                            <div class="media-body">
-                                                <span>11:27 AM</span>
-                                                <div class="chating">
-                                                     <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="chat-profile-box">
-                                                    <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                </div>
-                                           </div>
-                                        </div>
-                                        <div class="media text-right">
-                                            <div class="media-body">
-                                                <span>11:27 AM</span>
-                                                <div class="chating">
-                                                     <p class="mb-0">I will send the document as soon as possible</p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="chat-profile-box">
-                                                    <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                </div>
-                                           </div>
-                                        </div>
-                                        <form class="write-message">
-                                            <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                <div class="chat-btn">
-                                                    <div class="chat-emoji">
-                                                        <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <img src="assets/images/icons/uplod.svg" alt="">
-                                                        <input type="file" name="myfile" />
-                                                      </div>
-                                                    <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                </div>
-                                        </form>
-                                   </div>
-                                </div>
-                              </div>
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
-                                            </div>
-                                        </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
-                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="jonathan" role="tabpanel" aria-labelledby="jonathan-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
                                             </div>
                                         </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
                                             </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="nicholas" role="tabpanel" aria-labelledby="nicholas-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
                                             </div>
                                         </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
                                             </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="exander" role="tabpanel" aria-labelledby="exander-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
                                             </div>
                                         </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
                                             </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="than" role="tabpanel" aria-labelledby="than-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
                                             </div>
                                         </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
                                             </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="las" role="tabpanel" aria-labelledby="las-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
                                             </div>
                                         </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
                                             </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="Nicho" role="tabpanel" aria-labelledby="Nicho-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
                                             </div>
                                         </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
                                             </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
                                         </div>
                                     </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="tab-pane fade" id="charlotte" role="tabpanel" aria-labelledby="charlotte-tab">
-                                    <div class="chat-content">
-                                        <div class="chat-header">
-                                        <div class="chat-profile">
-                                            <img class="message-img" src="assets/images/home/message-03.png" alt="message">
-                                            <div class="chat-profile-name">
-                                                <h2>Alexander</h2>
-                                                <span>Online</span>
-                                            </div>
-                                        </div>
-                                        <div class="chat-header-icon">
-                                            <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                                            <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-                                        </div>
-                                        </div>
-                                        <div class="chat-tab-box">
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:25 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Oo, why don’t you say something more</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Don’t be like that and say somethig more</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media">
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/message-03.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                                <div class="media-body">
-                                                    <span>Alexander, 11:3 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">Recently I saw properties in a great location that I did not pay attention to before</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I suggest to start a new business with me. Can’t you start?</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="media text-right">
-                                                <div class="media-body">
-                                                    <span>11:27 AM</span>
-                                                    <div class="chating">
-                                                        <p class="mb-0">I will send the document as soon as possible</p>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="chat-profile-box">
-                                                        <img src="assets/images/home/profile-img.png" alt="chat-user">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <form class="write-message">
-                                                <textarea name="text" class="chat-textarea" placeholder="Write your message..." ></textarea>
-                                                    <div class="chat-btn">
-                                                        <div class="chat-emoji">
-                                                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                                        </div>
-                                                        <div class="upload-btn-wrapper">
-                                                            <img src="assets/images/icons/uplod.svg" alt="">
-                                                            <input type="file" name="myfile" />
-                                                        </div>
-                                                        <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                                                    </div>
-                                            </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
                                         </div>
                                     </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
-                         </div>
-                </div> 
-             </div>
-        <!-- content area end -->
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="jonathan" role="tabpanel" aria-labelledby="jonathan-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nicholas" role="tabpanel" aria-labelledby="nicholas-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="exander" role="tabpanel" aria-labelledby="exander-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="than" role="tabpanel" aria-labelledby="than-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="las" role="tabpanel" aria-labelledby="las-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Nicho" role="tabpanel" aria-labelledby="Nicho-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="charlotte" role="tabpanel" aria-labelledby="charlotte-tab">
+                            <div class="chat-content">
+                                <div class="chat-header">
+                                    <div class="chat-profile">
+                                        <img class="message-img" src="assets/images/home/message-03.png" alt="message">
+                                        <div class="chat-profile-name">
+                                            <h2>Alexander</h2>
+                                            <span>Online</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-header-icon">
+                                        <a href="voice.html"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                        <a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="chat-tab-box">
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:25 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Oo, why don’t you say something more</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Don’t be like that and say somethig more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/message-03.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Alexander, 11:3 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">Recently I saw properties in a great location that I did
+                                                    not pay attention to before</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I suggest to start a new business with me. Can’t you
+                                                    start?</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media text-right">
+                                        <div class="media-body">
+                                            <span>11:27 AM</span>
+                                            <div class="chating">
+                                                <p class="mb-0">I will send the document as soon as possible</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="chat-profile-box">
+                                                <img src="assets/images/home/profile-img.png" alt="chat-user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form class="write-message">
+                                        <textarea name="text" class="chat-textarea"
+                                            placeholder="Write your message..."></textarea>
+                                        <div class="chat-btn">
+                                            <div class="chat-emoji">
+                                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <img src="assets/images/icons/uplod.svg" alt="">
+                                                <input type="file" name="myfile" />
+                                            </div>
+                                            <button class="chat-send-btn" type="submit"><i class="fa fa-paper-plane-o"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content area end -->
+        </div>
     </div>
-</div>
- <!-- JS here -->
- <!-- jquery-1.12.4.min core JS file -->
- <script src="assets/js/jquery-1.12.4.min.js"></script>
- <!-- bootstrap core JS file -->
- <script src="assest/js/popper.min.js"></script>
- <script src="assets/js/bootstrap.min.js"></script>
- <!-- custom core JS file -->
- <script src="assets/js/custom.js"></script>
+    <!-- JS here -->
+    <!-- jquery-1.12.4.min core JS file -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap core JS file -->
+    <script src="assest/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- custom core JS file -->
+    <script src="assets/js/custom.js"></script>
 </body>
+
 </html>

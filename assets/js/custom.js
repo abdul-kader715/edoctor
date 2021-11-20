@@ -1,38 +1,36 @@
 $(document).ready(function () {
-    $(".notification").click(function(){
+    $(".notification").click(function () {
         $(".notification-item").toggleClass("notification-active");
     });
 
-    $(".menu-btn,.close-sidebar").click(function(){
+    $(".menu-btn,.close-sidebar").click(function () {
         $(".left-sidebar").toggleClass("left-sidebar-active");
     });
-    $(".filter").click(function(){
+    $(".filter").click(function () {
         $(".select-area").slideToggle("slow");
     });
 
     /* Card Number Spacing */
-
-    $('#card-number,.personal-text').on('keypress change blur', function () {
+    $('#card-number').on('keypress change blur', function () {
         $(this).val(function (index, value) {
-        return value.replace(/[^a-z0-9]+/gi, '').replace(/(.{4})/g, '$1 ');
+            return value.replace(/[^a-z0-9]+/gi, '').replace(/(.{19})/g, '$1 ');
         });
     });
-    
-    $('#card-number,.personal-text').on('copy cut paste', function () {
+
+    $('#card-number').on('copy cut paste', function () {
         setTimeout(function () {
-        $('#card-number,.personal-text').trigger("change");
+            $('#card-number').trigger("change");
         });
     });
-    
     /* Exp. Date Slash */
-    
-    $('#card-exp').on('input',function(){
+
+    $('#card-exp').on('input', function () {
         var curLength = $(this).val().length;
-        if(curLength === 2){
+        if (curLength === 2) {
             var newInput = $(this).val();
             newInput += '/';
             $(this).val(newInput);
         }
     });
-  
+
 });

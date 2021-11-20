@@ -7,31 +7,40 @@
     .select-box select {
         padding: 13px 10px 13px 40px;
     }
+
     .appointment-table thead tr th {
         padding: 10px 0 10px 22px;
     }
+
     .appointment-table tbody tr td {
         padding: 10px 12px 10px 22px;
     }
+
     .secrh-title-text h3 {
         font-size: 14px;
     }
+
     .profile-wepr {
         margin-bottom: 20px;
     }
+
     .header-title {
         font-size: 18px;
     }
+
     .booking-profile.booking-summary {
         margin-bottom: 50px;
     }
+
     .payment-area h2 {
         font-size: 15px;
     }
+
     .out-video {
         top: 53px;
         right: 20px;
     }
+
     .doctor-weper {
         margin-top: 30px;
     }
@@ -47,6 +56,7 @@
         display: block;
         margin-right: 15px;
     }
+
     .close-sidebar {
         position: absolute;
         top: 41px;
@@ -58,9 +68,11 @@
         border-radius: 50%;
         display: block;
     }
-    .left-sidebar.left-sidebar-active{
+
+    .left-sidebar.left-sidebar-active {
         left: 0;
     }
+
     .left-sidebar {
         position: absolute;
         left: -260px;
@@ -69,40 +81,50 @@
         background: #DCDFE0;
         z-index: 11;
         transition: all .4s ease-in-out 0s;
-        padding-bottom:30px;
+        padding-bottom: 30px;
         border: none;
-        box-shadow: 0px 3px 15px rgba(0,0,0,.1);
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
     }
+
     .customer-area {
         padding: 40px 15px;
         width: 200px;
     }
+
     .main-body {
         padding: 30px 15px;
         width: 100%;
     }
+
     .select-box select {
         font-size: 15px;
     }
+
     .appointment-table thead tr th {
         padding: 10px 0 10px 22px;
     }
+
     .appointment-table tbody tr td {
         padding: 10px 12px 10px 22px;
     }
+
     .header-title.doctor.booking-doctor {
         display: none;
     }
+
     .booking-profile.booking-summary {
         margin-bottom: 50px;
     }
+
     .out-video {
         top: 53px;
         right: 0;
     }
+
     .message-item .nav-item {
         margin-right: 40px;
     }
+
     .doctor-weper {
         margin-top: 30px;
     }
@@ -118,465 +140,596 @@
         z-index: 1;
         width: 250px;
     }
+
     .menu-btn {
         top: 40px;
         left: 20px;
         font-size: 20px;
     }
+
     .header-title {
         font-size: 16px;
     }
-    .header-title.search-result{
+
+    .header-title.search-result {
         font-size: 14px;
     }
+
     .notification {
         height: 35px;
         width: 35px;
     }
-    .notification img{
+
+    .notification img {
         height: 20px;
     }
-    .notification::before{
+
+    .notification::before {
         right: 5px;
         height: 10px;
         width: 10px;
         top: 5px;
     }
+
     .profile-btn img {
         margin-left: 13px;
         width: 35px;
         height: 35px;
     }
+
     .profile-btn span {
         font-size: 14px;
     }
+
     .section-title h2 {
         font-size: 18px;
     }
+
     .search-items {
         width: 100%;
     }
-    .search-items .select-box{
+
+    .search-items .select-box {
         width: 100%;
         margin-bottom: 10px;
     }
-    .search-items .select-box select{
+
+    .search-items .select-box select {
         width: 100%;
     }
-    .appointment-table{
+
+    .appointment-table {
         width: 767px;
     }
-    .appointment-table thead tr th{
+
+    .appointment-table thead tr th {
         font-size: 14px;
         padding: 5px 15px;
     }
-    .appointment-table tbody tr td{
+
+    .appointment-table tbody tr td {
         font-size: 14px;
         padding: 5px 15px;
     }
-    .appointment-table tbody tr td img{
+
+    .appointment-table tbody tr td img {
         height: 30px;
         width: 30px;
     }
-    .review-wrpe{
+
+    .review-wrpe {
         margin-bottom: 30px;
     }
+
     .search-wrep .filter {
-        width:50px;
+        width: 50px;
     }
-    .search-wrep .filter span{
+
+    .search-wrep .filter span {
         display: none;
     }
+
     .search-wrep .cardiolog h3 {
         font-size: 15px;
     }
+
     .secrh-wrap {
         padding: 14px 15px;
         margin-bottom: 50px;
     }
+
     .secrh-title img {
         height: 105px;
         width: 100px;
         margin-top: -55px;
         margin-right: 10px;
     }
+
     .secrh-title-text h3 {
         font-size: 13px;
     }
+
     .secrh-wrap h4 {
         margin-top: 10px;
         font-size: 14px;
     }
+
     .secrh-wrap .location {
         font-size: 14px;
     }
+
     .secrh-wrap p {
         font-size: 14px;
         margin-top: 5px;
     }
+
     .pegenetion-wrep {
         margin-top: 0;
     }
+
     .pegenetion-wrep {
         justify-content: left;
     }
+
     .pegenetion-wrep .pegenetion-item {
         margin: 0 5px;
     }
+
     .pegenetion-wrep .pegenetion-item li {
         padding: 8px 10px;
     }
+
     .pegenetion-wrep .pegenetion-btn {
         padding: 0px 2px;
         width: 80px;
     }
+
     .pegenetion-btn.next-btn i {
         padding-left: 10px;
     }
+
     .header-title.doctor li {
         font-size: 10px;
     }
+
     .header-title.doctor li a i {
         font-size: 6px;
     }
+
     .profile {
         flex-direction: column;
     }
+
     .profile-text {
         text-align: center;
     }
+
     .about-area {
         text-align: center;
     }
+
     .experiene {
         text-align: left;
     }
+
     .specialitie {
         text-align: left;
     }
+
     .profile-addres {
         margin-top: 20px;
     }
+
     .header-title.doctor li {
         font-size: 8px;
     }
+
     .experiene h2 {
         font-size: 15px;
     }
+
     .specialitie h2 {
         font-size: 15px;
     }
+
     .experiene h3 {
         font-size: 13px;
     }
+
     .addres-itam .addres-itam-text h3 {
         font-size: 15px;
     }
+
     .addres-itam .addres-itam-text span {
         font-size: 15px;
     }
+
     .location-area h2 {
         font-size: 15px;
-        margin-bottom:5px;
+        margin-bottom: 5px;
     }
+
     .location-wrep::before {
         display: none;
     }
+
     .location-wrep .sub-location i {
         display: none;
     }
+
     .location-text h3 {
         font-size: 13px;
     }
+
     .location-text p {
         font-size: 13px;
     }
+
     .location-text .location-text-color {
         font-size: 11px;
     }
+
     .recent-reviews-area h2 {
         font-size: 15px;
     }
+
     .recent-reviews-wrep .reviews-itam h3 {
         font-size: 15px;
     }
+
     .recent-reviews-area p {
         font-size: 12px;
         line-height: 15px;
         height: 40px;
     }
+
     .profile .profile-text h2 {
         font-size: 15px;
     }
+
     .profile .profile-text a h3 {
         font-size: 13px;
     }
+
     .profile .sergen .sergen-btn {
         font-size: 14px;
     }
+
     .about-area h3 {
         font-size: 16px;
     }
+
     .about-area p {
         font-size: 13px;
-        padding-right:0;
+        padding-right: 0;
     }
+
     .apppointment-type-area {
         padding: 30px 0px;
         text-align: center;
     }
-  
+
     .nav-item {
         padding-left: 10px;
     }
-   
+
     #pills-profile-tab {
         margin-top: 20px;
     }
+
     .nav-item .nav-link {
-        padding:10px;
+        padding: 10px;
         font-size: 14px;
     }
+
     .apppointment-type-area h2 {
         font-size: 15px;
         margin-bottom: 20px;
     }
+
     .apppointment-time h3 {
         font-size: 15px;
         margin-top: 25px;
         margin-bottom: 10px;
     }
+
     .time-title h4 {
         font-size: 15px;
         margin-bottom: 10px;
     }
+
     .time-itam li {
         margin-right: 10px;
         margin-bottom: 10px;
     }
+
     .time-itam {
         padding-left: 15px;
     }
+
     .time-itam li .months p {
         font-size: 15px;
     }
+
     .pay {
         text-align: center;
     }
+
     .pay a .pay-btn {
         font-size: 15px;
         text-align: center;
         padding: 14px 47px;
     }
+
     .choose-time-item {
         margin-left: 10px;
     }
+
     .booking-profile.booking-summary h3 {
         font-size: 15px;
     }
+
     .booking-profile .profile-text h2 {
         font-size: 15px;
     }
+
     .booking-item .booking-item-list tr th {
         font-size: 14px;
     }
+
     .payment-area h2 {
         font-size: 15px;
     }
+
     .payment-area .card-item li {
         width: 110px;
         margin-bottom: 10px;
     }
+
     .patient-placeholder {
         font-size: 15px;
     }
+
     .appointment-date {
         width: 100%;
         padding-top: 7px;
         padding-left: 8px;
     }
+
     .appointment-date li span {
         margin-left: 0px;
         font-size: 15px;
         padding-top: 2px;
     }
+
     .appointment-item {
         display: grid;
     }
-    .appointment-item li{
+
+    .appointment-item li {
         margin-bottom: 10px;
     }
+
     .appointment-item li .voice-btn button {
         font-size: 15px;
     }
+
     .appointment-item li .video-btn button {
         font-size: 15px;
     }
+
     .appointment-item li .message-btn button {
         font-size: 15px;
     }
+
     .appointment-wrep h2 {
         font-size: 16px;
     }
+
     .voice-head {
         padding: 12px;
     }
+
     .voice-left-side h5 {
         font-size: 15px;
         margin-left: 3px;
     }
+
     .voice-right-side a {
         margin-left: 20px;
     }
+
     .voice-right-side a i {
         width: 40px;
         height: 40px;
         font-size: 20px;
     }
+
     .voice-werp {
         padding: 10px 0;
     }
+
     .voice-werp img {
         height: 100px;
         width: 100px;
     }
+
     .voice-werp h3 {
         font-size: 15px;
         margin-top: 10px;
     }
+
     .voice-werp span {
         font-size: 13px;
     }
+
     .voice-item {
         margin-top: 10px;
     }
+
     .voice-item li {
         margin: 0 5px;
     }
+
     .voice-item li .voice-btn {
         width: 40px;
         height: 40px;
         font-size: 20px;
         margin-bottom: 0px;
     }
+
     .voice-btn.voice-btn-stop:before {
         font-size: 20px;
         top: 4px;
         left: 14px;
     }
+
     .end-call {
         margin-top: 5px;
     }
+
     .end-call span {
         width: 50px;
         height: 50px;
     }
+
     .end-call span::before {
         top: 28px;
         left: 25px;
     }
+
     .video-caller-name {
         padding: 5px 5px;
     }
+
     .video-time i {
         display: none;
     }
+
     .caller-id h3 {
         font-size: 14px;
         margin: 0;
     }
+
     .video-text-icon i {
         width: 40px;
         height: 40px;
         font-size: 15px;
     }
+
     .video-wrap h3 {
         font-size: 15px;
     }
+
     .video-wrap {
-        padding:0;
+        padding: 0;
     }
+
     .video-btn-item {
         margin-top: 150px;
     }
+
     .out-video {
         width: 100px;
         height: 66px;
         top: 0;
-        right:0;
+        right: 0;
     }
+
     .video-btn-item li button {
         width: 30px;
         height: 30px;
         margin: 0 5px;
     }
+
     .video-btn-item li button {
         font-size: 15px;
     }
+
     .video-btn-item {
         padding: 10px 0;
     }
+
     .end-call span {
         width: 45px;
         height: 45px;
     }
+
     .end-call span::before {
         top: 25px;
         left: 22px;
     }
+
     .message-item .nav-item {
         margin-right: 0;
     }
+
     .chat-profile img {
         display: none;
     }
+
     .chat-profile .chat-profile-name {
         margin-left: 0;
     }
+
     .chat-profile .chat-profile-name h2 {
         font-size: 15px;
     }
+
     .chat-content {
         padding: 10px;
     }
+
     .chat-profile {
         width: 125px;
     }
+
     .chat-header-icon a {
         width: 30px;
         height: 30px;
     }
+
     .chat-header-icon a i {
         font-size: 16px;
     }
+
     .chat-profile-box img {
-        margin-right: 0; 
+        margin-right: 0;
     }
+
     .media-body .chating {
-         margin-right:0;
+        margin-right: 0;
     }
+
     .media.text-right .media-body .chating {
         margin-left: 0;
     }
+
     .media.text-right .chat-profile-box img {
         margin-left: 0;
     }
+
     .chat-textarea {
         font-size: 15px;
     }
+
     .chat-textarea {
         padding: 10px 120px 10px 10px;
     }
+
     .doctor-weper {
         margin-top: 30px;
     }
+
     .appointment-tabel.profile-payment .table-responsive {
         overflow: auto;
     }
+
     .present-title img {
         width: 100px;
         height: 100px;
     }
+
     .present-wrep .edit-page {
         height: 31px;
         width: 66px;
@@ -584,51 +737,65 @@
         font-size: 15px;
         right: 30px;
     }
+
     .present-title h3 {
         font-size: 15px;
         margin-top: 20px;
     }
+
     .introduction-title h4 {
         font-size: 15px;
     }
+
     .introduction-title p {
-        font-size: 14px;;
+        font-size: 14px;
+        ;
         line-height: 20px;
     }
+
     .present-data h3 {
         font-size: 15px;
         margin-bottom: 0px;
         text-align: center;
     }
+
     .present-membership {
         text-align: center;
     }
+
     .mydoctor-title .mydoctor-btn button {
         margin-top: 6px;
         padding: 9px 11px;
         font-size: 15px;
     }
+
     .mycomplain h2 {
         font-size: 15px;
     }
+
     .mycomplain h3 {
         font-size: 15px;
     }
+
     .mycomplain .complain-btn {
         margin-top: 15px;
         font-size: 15px;
     }
+
     .photo-up img {
         width: 100px;
         height: 100px;
-        margin-right:0;
+        margin-right: 0;
     }
+
     .present-membership {
         text-align: left;
     }
+
     .present-data h3 {
-        text-align: left; 
+        text-align: left;
     }
+
     .present-membership li p {
         font-size: 15px;
     }
@@ -637,54 +804,67 @@
         font-size: 15px;
         line-height: 25px;
     }
+
     .photo-up {
         display: block;
         text-align: center;
     }
+
     .up-btn {
         padding: 8px 10px;
         font-size: 13px;
         margin-top: 10px;
     }
+
     .upload-btn-wrapper {
-        margin-right:0; 
+        margin-right: 0;
     }
+
     .personal-wrap {
         display: contents;
     }
+
     .personal-wrap .personal-text {
         width: 100%;
     }
+
     .introduc-area p {
         font-size: 15px;
         font-weight: 400;
     }
+
     .create-pass h2 {
         font-size: 15px;
         margin-top: 10px;
     }
+
     .introduc-area h4 {
         margin-top: 10px;
     }
+
     .personal-wrap .personal-text {
         font-size: 15px;
     }
+
     .save-btn {
         justify-content: center;
         margin-top: 10px;
     }
+
     .save-btn .save-chang {
         font-size: 16px;
         width: 100%;
     }
+
     .editprofile-area h2 {
         font-size: 15px;
         text-align: center;
     }
+
     .checkbox-icon {
-      display: none;
+        display: none;
     }
-   
+
 }
 
 /* Large Mobile :480px. */
